@@ -71,8 +71,6 @@ class MyApp extends StatelessWidget {
           title: 'Diabo',
           initialRoute: '/',
           routes: {
-            //เดียวค่อยเพิ่มหน้า
-            // '/': (context) => FirstPage(),
             '/': (context) => const HomeScreen(),
             '/login': (context) => const LoginScreen(),
             '/edit': (context) => ProfileEditPage(),

@@ -214,7 +214,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 10),
+                          horizontal: 30, vertical: 10),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment
                             .spaceBetween, // ระยะห่างระหว่างปุ่ม
@@ -231,7 +231,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Icon(Icons.edit),
-                                SizedBox(width: 4),
+                                SizedBox(width: 3),
                                 Text(
                                   'แก้ไขข้อมูลส่วนตัว',
                                   style: TextStyle(fontFamily: 'Prompt'),
