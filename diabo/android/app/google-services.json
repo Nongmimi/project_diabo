@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648818068968",
+    "project_id": "diaboauthen",
+    "storage_bucket": "diaboauthen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648818068968:android:47a7c4fd34f47a1cfd285d",
+        "android_client_info": {
+          "package_name": "com.example.diaboauthen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOkR5U_QK5gMhylo_RJtGctNPNZTbUDWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
