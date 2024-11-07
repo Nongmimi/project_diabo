@@ -1,0 +1,4 @@
+2024-10-19T04:02:20.362Z - SyntaxError: Expected ',' or '}' after property value in JSON at position 14981
+    at JSON.parse (<anonymous>)
+    at appointment (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

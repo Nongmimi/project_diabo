@@ -1,0 +1,10 @@
+2024-10-17T09:34:37.410Z - undefined
+2024-10-17T09:39:37.370Z - undefined
+2024-10-17T09:43:07.594Z - undefined
+2024-10-17T09:44:27.143Z - undefined
+2024-10-17T09:45:56.247Z - undefined
+2024-10-17T09:48:00.478Z - undefined
+2024-10-17T09:52:48.962Z - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at appointment (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:72:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

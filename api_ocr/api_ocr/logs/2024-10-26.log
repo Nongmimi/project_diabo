@@ -1,0 +1,8 @@
+2024-10-26T12:20:38.623Z - Error: [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY
+    at response.text (/Users/amphol/Documents/MyApp/api_ocr/node_modules/@google/generative-ai/dist/index.js:467:23)
+    at medicine (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:143:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-26T12:21:15.493Z - Error: [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY
+    at response.text (/Users/amphol/Documents/MyApp/api_ocr/node_modules/@google/generative-ai/dist/index.js:467:23)
+    at medicine (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:143:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

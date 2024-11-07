@@ -1,0 +1,26 @@
+2024-10-23T06:04:05.391Z - SyntaxError: Unexpected token 'ฉ', "ฉันไม่สามา"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at food (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:198:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-23T06:06:14.611Z - SyntaxError: Unexpected token 'ใ', "ใช่ อาหารจ"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at food (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:198:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-23T06:13:19.003Z - Error: [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY
+    at response.text (/Users/amphol/Documents/MyApp/api_ocr/node_modules/@google/generative-ai/dist/index.js:467:23)
+    at food (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:195:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-23T06:15:09.300Z - ReferenceError: imagePart is not defined
+    at food (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:196:57)
+    at Layer.handle [as handle_request] (/Users/amphol/Documents/MyApp/api_ocr/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/amphol/Documents/MyApp/api_ocr/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/amphol/Documents/MyApp/api_ocr/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/amphol/Documents/MyApp/api_ocr/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/amphol/Documents/MyApp/api_ocr/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/amphol/Documents/MyApp/api_ocr/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:526:35)
+    at finish (node:internal/streams/writable:937:10)
+    at node:internal/streams/writable:918:13
+2024-10-23T06:35:43.093Z - ReferenceError: Cannot access 'carbsEx' before initialization
+    at food (/Users/amphol/Documents/MyApp/api_ocr/src/controllers/index_controller.js:201:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
